@@ -23,4 +23,4 @@ const mapDispatchToProps = (dispatch) => ({
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(Counter)
+)(Counter)   // 动态返回一个包含Counter组件标签的组件
